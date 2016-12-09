@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/pokeballNear"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitStart"
+        android:src="@mipmap/pokeball"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/nearby_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Near User Name"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/pokeballNear"
+        />
+
+</RelativeLayout>
